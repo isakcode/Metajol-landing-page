@@ -1,0 +1,874 @@
+.BasicFont {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+}
+header {
+  margin-left: 20.2%;
+  display: grid;
+  grid-template-columns: 9.6% 63% 27.3%;
+  margin-right: 11%;
+}
+header .logo {
+  margin-top: 11px;
+  width: 120px;
+}
+header .logo .LogoImg {
+  width: 100%;
+}
+header .NavBlock {
+  padding-top: 30px;
+}
+header .NavBlock .MenuNav {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 17.4% 17.4% 17.4% 17.4% 17.4%;
+  grid-column-gap: 2%;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+header .NavBlock .MenuNav .MenuItem {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+header .NavBlock .MenuNav .MenuItem .MenuItemLink {
+  padding: 20px;
+  color: #000;
+  transition: all 100ms;
+  font-weight: 500;
+}
+header .NavBlock .MenuNav .MenuItem .MenuItemLink:hover {
+  padding: 20px;
+  border: 1px solid #47A4D9;
+  box-sizing: border-box;
+  border-radius: 13px;
+  color: #47A4D9;
+}
+header .SettingBlock {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 40% 10% 12%;
+}
+header .SettingBlock .IdentifyBlock {
+  font-size: 20px;
+}
+header .SettingBlock .IdentifyBlock .Login {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+header .SettingBlock .IdentifyBlock .Login:hover {
+  color: #47A4D9;
+  transition: all 200ms;
+}
+header .SettingBlock .IdentifyBlock .Signin {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+header .SettingBlock .IdentifyBlock .Signin:hover {
+  color: #47A4D9;
+  transition: all 200ms;
+}
+header .SettingBlock .ColorTheme {
+  margin-left: 60px;
+  cursor: pointer;
+}
+header .SettingBlock .ColorTheme .DarkTheme {
+  width: 50px;
+  height: 60px;
+}
+header .SettingBlock .LanguageChanger {
+  margin-left: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 5px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+header .SettingBlock .LanguageChanger:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+header .SettingBlock .LanguageChanger::-ms-expand {
+  display: none;
+}
+main .BannerBlock {
+  margin-top: 200px;
+  margin-left: 20.2%;
+  margin-right: 20.2%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .BannerBlock .BannerInfoBlock .NameText {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+  color: #506761;
+  text-transform: uppercase;
+}
+main .BannerBlock .BannerInfoBlock .TaglineBlock {
+  text-align: center;
+  width: 50%;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding-bottom: 120px;
+}
+main .BannerBlock .BannerInfoBlock .TaglineBlock .OtherColorWord {
+  color: #47A4D9;
+}
+main .BannerBlock .BannerInfoBlock .BtnStart {
+  color: #fff;
+  background-color: #FF2E00;
+  border-radius: 10px;
+  padding: 10px 45px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  transition: all 100ms;
+}
+main .BannerBlock .BannerInfoBlock .BtnStart:hover {
+  background-color: #fa512a;
+}
+main .AboutUsBlock {
+  margin-left: 20.2%;
+  margin-right: 21%;
+  padding-top: 300px;
+}
+main .AboutUsBlock .AboutName {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+main .AboutUsBlock .AboutUsInfo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .AboutUsBlock .AboutUsInfo .AboutUsText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin-top: 85px;
+}
+main .ServicesBlock {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 170px;
+  background-image: url(img/background/BkgForServices.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main .ServicesBlock .ServicesName {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+}
+main .ServicesBlock .ServicesList {
+  margin-top: 80px;
+  margin-left: 17%;
+  margin-right: 17%;
+  display: grid;
+  grid-template-columns: 21% 21% 21% 21%;
+  grid-column-gap: 5.2%;
+}
+main .ServicesBlock .ServicesList .ServiceItem {
+  padding-bottom: 10px;
+}
+main .ServicesBlock .ServicesList .ServiceItem:hover {
+  border-bottom: 5px solid #47A4D9;
+  border-radius: 15px;
+  transition: all 200ms;
+  margin-top: -10px;
+}
+main .ServicesBlock .ServicesList .ServiceItem .ServiceItemName {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+main .ServicesBlock .ServicesList .ServiceItem .ServiceItemImg {
+  margin-top: 30px;
+}
+main .ServicesBlock .ServicesList .ServiceItem .ServiceItemImg img {
+  width: 100%;
+}
+main .ServicesBlock .ServicesList .ServiceItem .ServiceItemImg .PhoneImg {
+  width: 145%;
+}
+main .PortfolioBlock {
+  margin-top: 170px;
+  margin-left: 21%;
+  margin-right: 22%;
+}
+main .PortfolioBlock .PortfolioName {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+main .PortfolioBlock .container {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+main .PortfolioBlock .container .slider__container {
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  main .PortfolioBlock .container .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  main .PortfolioBlock .container .container {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+}
+main .PortfolioBlock .container .slider__wrapper {
+  overflow: hidden;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+@media (min-width: 768px) {
+  main .PortfolioBlock .container .slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  main .PortfolioBlock .container .slider__item {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+  }
+}
+main .PortfolioBlock .container .slider__item-content {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+main .PortfolioBlock .container .slider__content_header {
+  position: relative;
+}
+main .PortfolioBlock .container .slider__content_img:hover {
+  opacity: 0.5;
+  transition: all ease 200ms;
+}
+main .PortfolioBlock .container .slider__content_img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+main .PortfolioBlock .container .slider__content_section {
+  position: absolute;
+  bottom: 6px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 12px;
+  line-height: 1;
+}
+main .PortfolioBlock .container .slider__content_title {
+  background: #fafafa;
+  color: #424242;
+  white-space: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  padding: 10px 15px;
+  margin: 0;
+  height: 52px;
+}
+main .PortfolioBlock .container .slider__content_photo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+main .PortfolioBlock .container .slider__control {
+  background-color: unset;
+}
+main .PortfolioBlock .container .slider__control:hover,
+main .PortfolioBlock .container .slider__control:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+main .PortfolioBlock .container .slider__indicators {
+  bottom: -35px;
+}
+main .PortfolioBlock .container .slider__indicators li {
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+main .PortfolioBlock .container .slider__indicators li.active {
+  background-color: #1BCBE3;
+}
+main .ReviewsBlock {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 180px;
+  background-image: url(img/background/BkgForReviews.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main .ReviewsBlock .ReviewName {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+main .ReviewsBlock .ReviewContent {
+  margin-top: 80px;
+  margin-left: 20%;
+  margin-right: 21%;
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  grid-template-rows: 320px;
+  gap: 0px 4%;
+  grid-template-areas: "ReviewNum1 ReviewItem2";
+}
+main .ReviewsBlock .ReviewContent .ReviewItem2 {
+  grid-area: ReviewItem2;
+}
+main .ReviewsBlock .ReviewContent .ReviewNum1 {
+  grid-area: ReviewNum1;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 60px;
+  display: grid;
+  grid-template-columns: 25% 65%;
+  grid-template-rows: 320px;
+  gap: 0px 10%;
+  grid-template-areas: "ReviewProfile ReviewText";
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewProfile {
+  grid-area: ReviewProfile;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewProfile .ReviewPhoto {
+  width: 125px;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewProfile .ReviewPerson {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin-left: 15px;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText {
+  grid-area: ReviewText;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 40px;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link,
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link > a {
+  color: #5082bf;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 60px;
+  margin-left: 45%;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link > a {
+  position: relative;
+  transition: 0.4s;
+  left: 0pt;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link > a:hover {
+  left: -16pt;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link > .decoration {
+  position: relative;
+  display: inline-block;
+  width: 10pt;
+  height: 10pt;
+  transition: 0.2s;
+  left: 0pt;
+  border-top: 3px solid #5082bf;
+  border-right: 3px solid #5082bf;
+  transform: rotate(45deg);
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link:hover > .decoration {
+  left: 7pt;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link > .decoration::before {
+  position: absolute;
+  transition: opacity 0.2s;
+  content: '';
+  width: 10pt;
+  height: 10pt;
+  border-top: 3px solid #5082bf;
+  border-right: 3px solid #5082bf;
+  left: 5pt;
+  top: -7pt;
+  opacity: 1;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link:hover > .decoration::before {
+  opacity: 0;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link > .decoration::after {
+  position: absolute;
+  transition: opacity 0.2s;
+  content: '';
+  width: 10pt;
+  height: 10pt;
+  border-top: 3px solid #5082bf;
+  border-right: 3px solid #5082bf;
+  left: -5pt;
+  top: 3pt;
+  opacity: 0;
+}
+main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link:hover > .decoration::after {
+  opacity: 1;
+}
+main .ContactBlock {
+  margin-top: 180px;
+}
+main .ContactBlock .ContactBlockName {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+main .ContactBlock .ContactFormBlock {
+  margin-top: 80px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 150px;
+  width: 40%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+main .ContactBlock .ContactFormBlock .ContactForm {
+  width: 100%;
+  padding-top: 80px;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .NameForm {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 50px;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock {
+  padding-left: 20%;
+  padding-right: 20%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 40px 40px 40px 200px;
+  gap: 70px 0%;
+  grid-template-areas: "NameItem" "EmailItem" "TelItem" "CommentItem";
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .NameItem {
+  grid-area: NameItem;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .EmailItem {
+  grid-area: EmailItem;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .TelItem {
+  grid-area: TelItem;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .CommentItem {
+  grid-area: CommentItem;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .InputItem input {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 24px;
+  border: none;
+  border: 2px solid #c2c2c2;
+  background: #ffffff;
+  transition: all 200ms;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .InputItem input:focus {
+  box-shadow: 4px 4px 74px 21px rgba(65, 255, 221, 0.75);
+  -webkit-box-shadow: 4px 4px 74px 21px rgba(65, 255, 221, 0.75);
+  -moz-box-shadow: 4px 4px 74px 21px rgba(65, 255, 221, 0.75);
+  border: 2px solid #ffffff;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .InputItem .FormLabel {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .InputItem textarea {
+  width: 97%;
+  border-radius: 5px;
+  padding-left: 3%;
+  font-family: 'Montserrat', sans-serif;
+  height: 120px;
+  border: none;
+  font-size: 24px;
+  border: 2px solid #c2c2c2;
+  background: #ffffff;
+  transition: all 200ms;
+  resize: none;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .InputsBlock .InputItem textarea:focus {
+  box-shadow: 2px 2px 74px 21px rgba(87, 250, 220, 0.75);
+  -webkit-box-shadow: 2px 2px 74px 21px rgba(87, 250, 220, 0.75);
+  -moz-box-shadow: 2px 2px 74px 21px rgba(87, 250, 220, 0.75);
+  border: 2px solid #ffffff;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .BtnSend {
+  margin-top: 15px;
+  background-color: #7BF48F;
+  border-radius: 15px;
+  padding: 20px 55px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  transition: all 200ms;
+  margin-left: 37%;
+}
+main .ContactBlock .ContactFormBlock .ContactForm .BtnSend:hover {
+  background-color: #91f7a2;
+}
+footer {
+  margin-top: 300px;
+  width: 100%;
+  padding-top: 30px;
+  background: linear-gradient(0deg, #47A4D9 -27.22%, rgba(71, 164, 217, 0) 139.11%);
+}
+footer .FootInfoBlock {
+  margin-left: 21%;
+  margin-right: 22%;
+  display: flex;
+  padding-bottom: 100px;
+}
+footer .FootInfoBlock .FootLogoBlock {
+  margin-top: 10px;
+  width: 120px;
+}
+footer .FootInfoBlock .RightFootBlock {
+  margin-left: 60%;
+}
+footer .FootInfoBlock .RightFootBlock .EmailFoot {
+  display: flex;
+  flex-direction: row;
+}
+footer .FootInfoBlock .RightFootBlock .EmailFoot .EmailText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+footer .FootInfoBlock .RightFootBlock .EmailFoot .EmailExample {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-left: 40%;
+}
+footer .FootInfoBlock .RightFootBlock .SocialMediaBlock {
+  display: flex;
+  margin-top: 30px;
+}
+footer .FootInfoBlock .RightFootBlock .SocialMediaBlock .SocMediaItem {
+  margin-left: 15px;
+}
+footer .FootInfoBlock .RightFootBlock .SocialMediaBlock .InstaLeft {
+  margin-left: 0px;
+}
+footer .FootInfoBlock .RightFootBlock .YearsDate {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin-left: 120%;
+  margin-top: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (max-width: 1840px) {
+  header {
+    margin-left: 15%;
+  }
+  main .BannerBlock {
+    margin-left: 17.2%;
+    margin-right: 17.2%;
+  }
+  main .BannerBlock .BannerInfoBlock .TaglineBlock {
+    padding-bottom: 100px;
+  }
+  main .AboutUsBlock {
+    margin-left: 15.2%;
+    margin-right: 15%;
+  }
+  main .AboutUsBlock .AboutUsInfo .AboutUsText {
+    font-size: 30px;
+  }
+  main .ServicesBlock .ServicesList {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  main .PortfolioBlock {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  main .ReviewsBlock .ReviewContent {
+    margin-left: 17%;
+    margin-right: 18%;
+  }
+}
+@media screen and (max-width: 1720px) {
+  header {
+    margin-left: 12%;
+    margin-right: 10%;
+  }
+  header .SettingBlock {
+    grid-template-columns: 45% 15% 12%;
+  }
+  main .BannerBlock {
+    margin-left: 15.2%;
+    margin-right: 15.2%;
+  }
+  main .AboutUsBlock {
+    margin-left: 14.2%;
+    margin-right: 14%;
+  }
+  main .ServicesBlock .ServicesList {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+  main .PortfolioBlock {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+  main .ReviewsBlock {
+    padding-bottom: 170px;
+  }
+  main .ReviewsBlock .ReviewContent {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+  main .ReviewsBlock .ReviewContent .ReviewItem {
+    gap: 0px 8%;
+    grid-template-rows: 220px;
+    padding-right: 30px;
+  }
+  main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link {
+    margin-top: 40px;
+    margin-left: 40%;
+  }
+  main .ContactBlock .ContactFormBlock {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 1622px) {
+  header .NavBlock .MenuNav {
+    width: 93%;
+    margin-left: 7%;
+    justify-content: space-around;
+  }
+  header .NavBlock .MenuNav .MenuItem {
+    font-size: 18px;
+  }
+  header .SettingBlock {
+    margin-left: 30px;
+  }
+  header .SettingBlock .IdentifyBlock .Login {
+    font-size: 18px;
+  }
+  header .SettingBlock .IdentifyBlock .Signin {
+    font-size: 18px;
+  }
+  footer .FootInfoBlock {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+@media screen and (max-width: 1542px) {
+  header {
+    margin-left: 10%;
+  }
+  header .logo .LogoImg {
+    width: 80%;
+  }
+  header .SettingBlock {
+    grid-template-columns: 50% 15% 12%;
+  }
+  main .ReviewsBlock .ReviewContent .ReviewItem .ReviewProfile .ReviewPhoto {
+    width: 100px;
+  }
+  main .ReviewsBlock .ReviewContent .ReviewItem .ReviewProfile .ReviewPerson {
+    font-size: 20px;
+  }
+  main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText {
+    font-size: 16px;
+  }
+  main .ReviewsBlock .ReviewContent .ReviewItem .ReviewText .link {
+    margin-top: 30px;
+    margin-left: 35%;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1503px) {
+  header .NavBlock .MenuNav {
+    width: 95%;
+    margin-left: 5%;
+  }
+  main .AboutUsBlock .AboutUsInfo .AboutUsText {
+    font-size: 25px;
+  }
+  footer .FootInfoBlock .RightFootBlock {
+    font-size: 25px;
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width: 1472px) {
+  header {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  main .ReviewsBlock .ReviewContent {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+  main .ContactBlock .ContactFormBlock {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1402px) {
+  header .NavBlock .MenuNav {
+    grid-template-columns: 21% 17.4% 17.4% 17.4% 17.4%;
+  }
+}
+@media screen and (max-width: 1212px) {
+  header {
+    margin-left: 5%;
+  }
+  header .SettingBlock {
+    grid-template-columns: 60% 15% 12%;
+  }
+  main .BannerBlock .BannerInfoBlock .TaglineBlock {
+    font-size: 20px;
+  }
+  main .AboutUsBlock .AboutUsInfo .AboutUsText {
+    font-size: 20px;
+  }
+  main .ServicesBlock .ServicesList {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  main .ReviewsBlock .ReviewContent {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  main .ContactBlock .ContactFormBlock {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+  }
+}
+.dark body {
+  background-color: #1C1C1C;
+}
+.dark body header .NavBlock .MenuNav .MenuItem .MenuItemLink {
+  color: #ffffff;
+}
+.dark body header .SettingBlock .IdentifyBlock {
+  color: #fff;
+}
+.dark body header .SettingBlock .IdentifyBlock .Login {
+  color: #fff;
+}
+.dark body header .SettingBlock .IdentifyBlock .Login:hover {
+  color: #1BCBE3;
+}
+.dark body header .SettingBlock .IdentifyBlock .Signin {
+  color: #fff;
+}
+.dark body header .SettingBlock .IdentifyBlock .Signin:hover {
+  color: #1BCBE3;
+}
+.dark body main .BannerBlock .BannerInfoBlock .NameText {
+  color: #2BA082;
+}
+.dark body main .BannerBlock .BannerInfoBlock .TaglineBlock {
+  color: #fff;
+}
+.dark body main .BannerBlock .BannerInfoBlock .TaglineBlock .OtherColorWord {
+  color: #47A4D9;
+}
+.dark body main .BannerBlock .BannerInfoBlock .BtnStart {
+  background-color: #fff;
+  color: #000;
+}
+.dark body main .AboutUsBlock .AboutName {
+  color: #fff;
+}
+.dark body main .AboutUsBlock .AboutUsInfo .AboutUsText {
+  color: #fff;
+}
+.dark body main .PortfolioBlock .PortfolioName {
+  color: #fff;
+}
+.dark body main .ContactBlock .ContactBlockName {
+  color: #fff;
+}
